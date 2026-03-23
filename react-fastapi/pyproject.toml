@@ -1,0 +1,33 @@
+[project]
+name = "blog"
+version = "1.0.0"
+description = "HelloBugGodFather's blog"
+authors = [{ name = "HelloBugGodFather", email = "2323981342@qq.com" }]
+license = { text = "MIT" }
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "python-frontmatter"
+]
+
+[tool.ruff]
+line-length = 100
+indent-width = 4
+target-version = "py312"
+
+[tool.ruff.format]
+line-ending = "lf"
+quote-style = "double"
+indent-style = "space"
+docstring-code-format = true
+
+[tool.ruff.lint]
+select = ["F", "E", "W", "UP", "C4", "I", "SIM", "RET", "B"]
+ignore = ["E501"]
+
+fixable = ["ALL"]
+unfixable = []
+
+[tool.ruff.isort]
+lines-after-imports = 2

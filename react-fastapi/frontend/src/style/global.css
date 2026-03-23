@@ -1,0 +1,13 @@
+@import url('https://fontsapi.zeoseven.com/442/main/result.css');
+
+@import 'tailwindcss';
+@plugin "daisyui" {
+    themes: false;
+}
+@plugin './catppuccin.latte.ts';
+@plugin './catppuccin.mocha.ts';
+
+* {
+    font-family: 'Maple Mono NF CN';
+    font-weight: normal;
+}

@@ -1,0 +1,43 @@
+{
+    "name": "blog",
+    "version": "1.0.0",
+    "private": true,
+    "type": "module",
+    "prettier": {
+        "semi": false,
+        "singleQuote": true,
+        "printWidth": 120,
+        "tabWidth": 4,
+        "trailingComma": "none"
+    },
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "serve out -p 3000",
+        "lint": "eslint",
+        "format": "prettier --write ./src"
+    },
+    "dependencies": {
+        "@uiw/react-markdown-preview": "^5.1.5",
+        "gray-matter": "^4.0.3",
+        "next": "16.2.1",
+        "react": "19.2.4",
+        "react-dom": "19.2.4",
+        "react-icons": "^5.5.0"
+    },
+    "devDependencies": {
+        "@catppuccin/daisyui": "^2.1.1",
+        "@tailwindcss/postcss": "^4",
+        "@types/node": "^20",
+        "@types/react": "^19",
+        "@types/react-dom": "^19",
+        "babel-plugin-react-compiler": "1.0.0",
+        "daisyui": "^5.5.19",
+        "eslint": "^9",
+        "eslint-config-next": "16.2.1",
+        "prettier": "^3.8.1",
+        "serve": "^14.2.6",
+        "tailwindcss": "^4",
+        "typescript": "^5"
+    }
+}
